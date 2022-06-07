@@ -195,6 +195,10 @@ footer{
 }
 footer{
     text-align: center;
+   width: 300px; 
+   background-color: #FFF;
+   color: #333;
+
 }
 }
 /* tablette */
@@ -242,7 +246,15 @@ body{
 .newsletter{
     margin-left: 60px;
 }
+footer{
+    text-align: center;
+    width: 600px;
+    background-color: #FFF;
+    color: #333;
+    }
+  
 }
+
 /* pablette paysage */
 @media screen and (max-width: 995px)
 {
@@ -284,5 +296,9 @@ body{
 }
 .newsletter{
     margin-left: 60px;
+}
+footer{
+    text-align: center;
+  margin-left: -50px;
 }
 }
