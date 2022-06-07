@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image: url(./imges/background.png);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Dancing Script', cursive;
+    color:#C55394 ;
+}
+#logo{
+    color: #FFF;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* barre de menus : #C55394
+	hover menu : #EB43A3
+    titre h1 : #C55394
+    autres titres : #EB43A3
+	footer : #E577B5
+	noir : #333
+	blanc : #FFF */
+
+    .navbar{
+        background-color:#C55394;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .navbar ul{
+        list-style:none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: 2;
+        color:#FFF ;  
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    .navbar ul a {
+        text-decoration: none;
+        color:#FFF ;
+        padding:10px;
+        font-size:20px;
+    
+    }
+
+    .navbar a:hover{
+        background-color:#EB43A3;
+    }
+    /* main */
+
+.rainbow{
+ display: flex;
+ justify-content: center;
+ position: relative;
+
+}
+.position{
+    position: absolute;
+    top:30%
+}
+.container{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 3px 3px 5px 3px;
+    height: inherit;
+    width: auto;
+    /* overflow: auto; */
+}
+#title{
+    padding: 10px;
+}
+.fa-solid {
+   background-color: #FFF;
+}
+.cartes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    flex-wrap: 2;
+} 
+.space{
+    padding: 10px;
+   
+}
+.card-title{
+text-align:left;
+color: #FFF;
+}
+.bg{
+    background-color: #333 opacity 0.5;
+}
