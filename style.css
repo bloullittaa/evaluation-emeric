@@ -78,7 +78,7 @@ h1,h2,h3,h4,h5,h6{
     box-shadow: 3px 3px 5px 3px;
     height: inherit;
     width: auto;
-    
+    margin-bottom: 20px;
 }
 #title{
     padding: 10px;
@@ -138,4 +138,138 @@ text-align:left;
 .input{
    
     color: lightgrey;
+}
+/* responsive */
+
+/* mobile */
+@media screen and (max-width: 395px)
+{
+    .navbar{
+        background-color:#C55394;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin-left: -100px;
+        width: 600px;
+    }
+body{
+  margin-left: 100px; 
+   
+}
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.iframe{
+    width: 20%;
+    
+}
+.newsletter{
+    margin-left: 60px;
+}
+}
+/* tablette */
+@media screen and (max-width: 695px)
+{
+    .navbar{
+        background-color:#C55394;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: space-between;
+       width: 600px;
+       margin-left: -70px;
+    }
+body{
+  margin-left: 100px; 
+   
+}
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.iframe{
+    width: 20%;
+    
+}
+.newsletter{
+    margin-left: 60px;
+}
+}
+/* pablette paysage */
+@media screen and (max-width: 995px)
+{
+    .navbar{
+        background-color:#C55394;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin-left: 60px;
+        width: 600px;
+    }
+body{
+  margin-left: 100px; 
+   
+}
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.iframe{
+    width: 20%;
+    
+}
+.newsletter{
+    margin-left: 60px;
+}
 }
